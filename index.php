@@ -54,7 +54,7 @@
         </div>
       </form>
     </div>
-    <div class="colContenido">
+    <div class="colContenidoppal">
       <form action="index.php" method="get">
         <div class="tituloContenido card">
           <h5>Resultados de la búsqueda:</h5>

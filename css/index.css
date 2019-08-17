@@ -91,12 +91,19 @@ video#vidFondo {
 .botonField input{
   color: #648C7D;
 }
-.colContenido{
+.colContenidoppal{
   width: 75%;
   display: flex;
   flex-flow: row wrap;
   align-content: space-between;
   padding: 20px;
+}
+form{
+  width: 100%;
+}
+.colContenido{
+  width: 100%;
+  padding: 10px 0px;
 }
 .tituloContenido{
   width: 100%;
