@@ -112,7 +112,6 @@ form{
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  padding: 5px;
 }
 .tituloContenido h5{
   width: 100%;
@@ -134,13 +133,15 @@ form{
 }
 .itemMostrado{
   width: 100%;
-  margin-top: 0.4rem;
   display: flex;
   flex-flow: row wrap;
 }
 .itemMostrado img{
   width: 35% !important;
-  height: 300px;
+  height: 200px;
+}
+ul p{
+  margin:0;
 }
 .precioTexto{
   font-size: 1.3rem;
