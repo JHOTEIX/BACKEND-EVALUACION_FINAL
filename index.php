@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="css/index.css">
   <title>Formulario</title>
 </head>
-<body background="img/home.jpg">
+<body>
   <video src="img/video.mp4" id="vidFondo"></video>
   <div class="contenedor">
     <div class="card rowTitulo">

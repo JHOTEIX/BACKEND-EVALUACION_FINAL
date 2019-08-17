@@ -1,4 +1,10 @@
-//Creación de una función personalizada para jQuery que detecta cuando se detiene el scroll en la página
+$(document).ready(function() {
+  $('select').material_select();
+});
+
+/*
+  Creación de una función personalizada para jQuery que detecta cuando se detiene el scroll en la página
+*/
 $.fn.scrollEnd = function(callback, timeout) {
   $(this).scroll(function(){
     var $this = $(this);
@@ -8,7 +14,10 @@ $.fn.scrollEnd = function(callback, timeout) {
     $this.data('scrollTimeout', setTimeout(callback,timeout));
   });
 };
-//Función que inicializa el elemento Slider
+/*
+  Función Rango de Precio
+*/
+
 function inicializarSlider(){
   $("#rangoPrecio").ionRangeSlider({
     type: "double",
@@ -20,7 +29,9 @@ function inicializarSlider(){
     prefix: "$"
   });
 }
-//Función que reproduce el video de fondo al hacer scroll, y deteiene la reproducción al detener el scroll
+/*
+  Función que reproduce el video de fondo al hacer scroll, y detiene la reproducción al detener el scroll
+*/
 function playVideoOnScroll(){
   var ultimoScroll = 0,
       intervalRewind;
@@ -38,10 +49,8 @@ function playVideoOnScroll(){
     })
     .scrollEnd(()=>{
       video.pause();
-    }, 10)
+    }, 140)
 }
+
 inicializarSlider();
 playVideoOnScroll();
-$(document).ready(function() {
-  $('select').material_select();
-});
