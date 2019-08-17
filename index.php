@@ -9,7 +9,6 @@
   <link type="text/css" rel="stylesheet" href="css/ion.rangeSlider.skinFlat.css"  media="screen,projection"/>
   <link type="text/css" rel="stylesheet" href="css/index.css"  media="screen,projection"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <link rel="stylesheet" href="css/index.css">
   <title>Formulario</title>
 </head>
 <body>
